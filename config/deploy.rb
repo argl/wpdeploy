@@ -18,7 +18,7 @@ set :wp_localurl, "http://wp-deploy.localdomain" # Your local environment URL
 ############################################
 
 set :application, "wp-deploy"
-set :repo_url, "git@github.com:argl/wp-deploy.git"
+set :repo_url, "git@github.com:argl/wpdeploy.git"
 set :scm, :git
 
 set :git_strategy, SubmoduleStrategy
