@@ -3,9 +3,9 @@
 ############################################
 
 set :stage, :staging
-set :stage_url, "http://wp-deploy-staging.null2.net"
-server "54.93.49.157", user: "ubuntu", roles: %w{web app db}
-set :deploy_to, "/home/ubuntu/wp-deploy-staging"
+set :stage_url, "http://tolino-global.null2.net/"
+server "tolino-dev.null2.net", user: "ubuntu", roles: %w{web app db}
+set :deploy_to, "/home/ubuntu/tolino-staging"
 
 ############################################
 # Setup Git

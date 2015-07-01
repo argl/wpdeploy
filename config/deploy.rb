@@ -10,7 +10,7 @@ lock '3.4.0'
 
 set :wp_user, "andi" # The admin username
 set :wp_email, "andi@null2.net" # The admin email address
-set :wp_sitename, "WP Deploy" # The site title
+set :wp_sitename, "Tolino" # The site title
 set :wp_localurl, "http://wp-deploy.localdomain" # Your local environment URL
 
 ############################################

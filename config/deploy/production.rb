@@ -3,9 +3,9 @@
 ############################################
 
 set :stage, :production
-set :stage_url, "http://wp-deploy.null2.net"
-server "54.93.49.157", user: "ubuntu", roles: %w{web app db}
-set :deploy_to, "/home/ubuntu/wp-deploy-production"
+set :stage_url, "http://XXXX"
+server "XXXXX", user: "XXXX", roles: %w{web app db}
+set :deploy_to, "/home/XXXX"
 
 ############################################
 # Setup Git
